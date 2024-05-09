@@ -12,7 +12,7 @@
         <!-- Šeit ievieto navigāciju uz pārējām iepriekšējā mājasdarba lapām -->
     </header>
     <section>
-        <h1>Raksti</h1>
+        <h1 id="pageTitle">Raksti</h1>
         <p>Kas zemāk esošajiem rakstiem ir kopīgs?</p>
         <div>
             <h6>Kategorijas</h6>
@@ -25,7 +25,7 @@
     </section>
     <section>
         <!-- Pavairo un aizpildi <article>, lai būtu vismaz seši -->
-        <article>
+        <article class="vericalMargins">
             <h2>Virsraksts 1</h2>
             <img src="https://static.lsm.lv/media/2024/05/thumbnail/1/nmo9.jpg" alt=""><!-- Ievieto attēlu -->
             <p>
@@ -49,6 +49,36 @@
             </p>
             <a href="#">Saite</a><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
         </article>
+        <article>
+            <h2>Virsraksts 1</h2>
+            <img src="https://static.lsm.lv/media/2024/05/thumbnail/1/nmo9.jpg" alt=""><!-- Ievieto attēlu -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nisl ultricies ultricies.
+            </p>
+            <a href="#">Saite</a><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
+        </article>
+    </section>
+    <section>
+        <div>
+            <div style="float:left;">left</div>
+            <div style="float:right;">right</div>
+            <div style="clear:both;"></div>
+            <div>iuahofiwhe</div>
+        </div>
+        <div class="formContainer">
+            <form action="" class="weirdForm">
+                <input type="text" name="name">
+                <input type="text" name="surname">
+                <input type="radio" name="tos" value="0">
+                <input type="radio" name="tos" value="1">
+                <input type="radio" name="tos1" value="0">
+                <input type="radio" name="tos1" value="1">
+                <input type="checkbox" name="spam">
+                <input type="password" name="pass">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
     </section>
     <footer>
         <blockquote><!-- Ieraksti šeit kādu citātu --></blockquote>
