@@ -1,0 +1,33 @@
+h1, h6, .categories {
+    color: chartreuse;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+h6 {
+    color: blue;
+}
+
+.categories > span {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+article {
+    border: 1px solid #000000;
+    display: inline-block;
+    width: 33%;
+}
+
+article > img {
+    width: 100%;
+}
+
+article > p {
+    letter-spacing: 1px;
+}
