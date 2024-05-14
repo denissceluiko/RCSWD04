@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    section, .section {
+        min-width: 768px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .cards {
+        flex-direction: row;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .feature .image, .feature .description, article {
+        flex-basis: 50%;
+    }
+    
+    .reversed {
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .cards {
+        gap: 0;
+    }
+
+    .card {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    section, .section {
+        min-width: 320px;
+        max-width: 768px;
+        margin: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards {
+        gap: 0;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    article {
+        width:100%;
+    }
+    .reversed {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+
+}
+
+
+.landing-header {
+    background-image: url('../images/aurora-may24-iss.avif');
+    background-position: 0 80%;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    /**/
+}
+
+.bg-with-caption {
+    background-image: url('../images/aurora-may24-iss.avif');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-with-caption .caption {
+    /* color: rgba(255, 255, 255, 1); */
+    color: #ffffff45;
+    font-size: 5em;
+}
+
+.feature {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+.feature .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+}
+
+article {
+    /* flex-shrink: 1; */
+}
+
+section.bg-image {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
